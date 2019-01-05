@@ -1,8 +1,5 @@
 ---
 title: Lars Thorup
-postList:
-- 2018/04/10/100-tests-per-second-40-releases-per-week
-- 2016/09/21/sql-or-nosql-how-to-choose/
 ---
 <!doctype html>
 <html>
@@ -14,7 +11,7 @@ postList:
 
     <h2>Recent posts</h2>
     <ul>
-        {%- for post in collections.post reversed limit: 3 -%}
+        {%- for post in collections.post reversed limit: 2 -%}
         <li>
             <a href="{{post.data.permalink}}">
                 {{ post.data.title }}

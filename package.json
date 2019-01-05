@@ -20,7 +20,7 @@
     "@11ty/eleventy": "^0.6.0"
   },
   "scripts": {
-    "build": "eleventy --input=src --output=dist --formats=html,md",
-    "serve": "eleventy --serve --input=src --output=dist --formats=html,md"
+    "build": "eleventy --input=src --output=dist",
+    "serve": "eleventy --serve --input=src --output=dist"
   }
 }

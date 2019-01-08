@@ -7,7 +7,6 @@ Sample 11ty site
     
  ## To do
 
-* Edit on GitHub
 * Language variation
 * GitHub action to deploy to AWS S3 staging bucket on every push
 * Manual GitHub action to deploy to AWS S3 production bucket

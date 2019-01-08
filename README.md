@@ -7,7 +7,6 @@ Sample 11ty site
     
  ## To do
 
-* Standard header / footer
 * Edit on GitHub
 * Language variation
 * GitHub action to deploy to AWS S3 staging bucket on every push

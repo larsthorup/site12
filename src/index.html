@@ -1,29 +1,15 @@
 ---
+layout: page
 title: Lars Thorup
 ---
-<!doctype html>
-<html>
-<head>
-    <title>{{title}}</title>
-</head>
-<body>
-    <h1>{{title}}</h1>
 
-    <h2>Menu</h2>
-    <ul>
-        <li><a href="/services/">Services</a></li>
-        <li><a href="/about/">About</a></li>
-    </ul>
-
-    <h2>Recent posts</h2>
-    <ul>
-        {%- for post in collections.post reversed limit: 2 -%}
-        <li>
-            <a href="{{post.data.permalink}}">
-                {{ post.data.title }}
-            </a>
-        </li>
-        {%- endfor -%}
-    </ul>
-</body>
-</html>
+<h2>Recent posts</h2>
+<ul>
+    {%- for post in collections.post reversed limit: 2 -%}
+    <li>
+        <a href="{{post.data.permalink}}">
+            {{ post.data.title }}
+        </a>
+    </li>
+    {%- endfor -%}
+</ul>
